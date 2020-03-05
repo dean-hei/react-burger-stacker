@@ -25,7 +25,7 @@ function App() {
 
   const addIngred = (e) => {
     console.log(e.target.value);
-    setMyIngreds([...myIngreds, e.target.value]);
+    setMyIngreds([e.target.value, ...myIngreds]);
   }
 
   const clearBurger = () => {

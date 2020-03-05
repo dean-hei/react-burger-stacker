@@ -16,8 +16,25 @@ code {
   flex-direction: row;
 }
 .list {
+  background: lightpink;
+  border-radius: 20px;
   padding: 20px;
 }
 .burgerpane {
   text-align: center;
+}
+.ingred {
+  height: 50px;
+  width: 300px;
+  border-radius: 50%;
+}
+.ingred h2 {
+  margin: 0;
+}
+.stack {
+  padding: 20px;
+  height: 450px;
+  width: 500px;
+  display: flex;
+  flex-direction: column-reverse;
 }

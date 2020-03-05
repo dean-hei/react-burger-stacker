@@ -7,8 +7,8 @@ function MyIngredients(props) {
             background: item,
             color: "white"
         }
-        return (<div style={divStyle}>
-            <h2>{item}</h2>
+        return (<div class="ingred" style={divStyle}>
+            <h2>~ ~ ~ ~ ~ ~ ~ ~</h2>
         </div>);
     })
 

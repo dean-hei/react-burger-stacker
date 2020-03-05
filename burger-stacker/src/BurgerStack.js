@@ -4,7 +4,7 @@ import MyIngredients from "./MyIngredients";
 
 function BurgerStack(props) {
     return (
-        <div>
+        <div class="stack">
             <MyIngredients ingredients={props.ingredients}/>
         </div>
     );
