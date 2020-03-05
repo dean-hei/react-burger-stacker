@@ -38,3 +38,6 @@ code {
   display: flex;
   flex-direction: column-reverse;
 }
+.italic {
+  font-style: italic;
+}
