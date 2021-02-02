@@ -1,17 +1,11 @@
-import React, {useState} from 'react';
-import { checkPropTypes} from "prop-types";
-
+import React from 'react';
 function Ingredients(props) {
-    let ingredsList = props.ingredients.map((item) => {
-        return (<li>{item.name}, ${item.price} 
-            <button value={item.color + " " + item.price} onClick={(e) => props.addIngred(e)}>Add</button>
-        </li>);
-    })
+
 
     return (
-        <ul>
-            {ingredsList}
-        </ul>
+        <li>{props.ingredient.name}, ${props.ingredient.price} 
+            <button onClick={() => props.addIngred(props.ingredient)}>Add</button>
+        </li>
     )
 }
 

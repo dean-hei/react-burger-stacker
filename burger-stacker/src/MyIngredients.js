@@ -4,7 +4,7 @@ import { checkPropTypes} from "prop-types";
 function MyIngredients(props) {
     let myIngredsList = props.ingredients.map((item) => {
         let divStyle = {
-            background: item,
+            backgroundImage: 'url(' + item.img + ')',
             color: "white"
         }
         return (<div class="ingred" style={divStyle}>
